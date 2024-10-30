@@ -1,0 +1,21 @@
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.loader1{
+    width: 10rem;
+    border: .8rem solid gray;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border-top-color: purple;
+    animation: loading 1s infinite;
+    
+}
+
+@keyframes loading{
+    100%{
+        rotate: 360deg;
+    }
+}
